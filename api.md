@@ -1,0 +1,317 @@
+# Config
+
+Types:
+
+- <code><a href="./src/resources/config.ts">BgpAddPath</a></code>
+- <code><a href="./src/resources/config.ts">BgpAdvanced</a></code>
+- <code><a href="./src/resources/config.ts">BgpAsPath</a></code>
+- <code><a href="./src/resources/config.ts">BgpAttributesFourByteAsPathSegment</a></code>
+- <code><a href="./src/resources/config.ts">BgpAttributesNextHop</a></code>
+- <code><a href="./src/resources/config.ts">BgpAttributesSegmentRoutingPolicySRv6SidEndpointBehaviorAndStructure</a></code>
+- <code><a href="./src/resources/config.ts">BgpAttributesSegmentRoutingPolicyTypeFlags</a></code>
+- <code><a href="./src/resources/config.ts">BgpAttributesSidMpls</a></code>
+- <code><a href="./src/resources/config.ts">BgpAttributesSidSrv6</a></code>
+- <code><a href="./src/resources/config.ts">BgpCMacIPRange</a></code>
+- <code><a href="./src/resources/config.ts">BgpCapability</a></code>
+- <code><a href="./src/resources/config.ts">BgpCommunity</a></code>
+- <code><a href="./src/resources/config.ts">BgpEthernetSegmentDfElection</a></code>
+- <code><a href="./src/resources/config.ts">BgpExtCommunity</a></code>
+- <code><a href="./src/resources/config.ts">BgpExtendedCommunity</a></code>
+- <code><a href="./src/resources/config.ts">BgpGracefulRestart</a></code>
+- <code><a href="./src/resources/config.ts">BgpIpv4SrPolicyNlriPrefix</a></code>
+- <code><a href="./src/resources/config.ts">BgpIpv6SrPolicyNlriPrefix</a></code>
+- <code><a href="./src/resources/config.ts">BgpLearnedInformationFilter</a></code>
+- <code><a href="./src/resources/config.ts">BgpNlriPrefixPathID</a></code>
+- <code><a href="./src/resources/config.ts">BgpOneIpv4NlriPrefix</a></code>
+- <code><a href="./src/resources/config.ts">BgpOneIpv6NlriPrefix</a></code>
+- <code><a href="./src/resources/config.ts">BgpOneTraditionalNlriPrefix</a></code>
+- <code><a href="./src/resources/config.ts">BgpRouteAdvanced</a></code>
+- <code><a href="./src/resources/config.ts">BgpRouteDistinguisher</a></code>
+- <code><a href="./src/resources/config.ts">BgpRouteTarget</a></code>
+- <code><a href="./src/resources/config.ts">BgpSrteBindingSubTlv</a></code>
+- <code><a href="./src/resources/config.ts">BgpSrteColorSubTlv</a></code>
+- <code><a href="./src/resources/config.ts">BgpSrteExplicitNullLabelPolicySubTlv</a></code>
+- <code><a href="./src/resources/config.ts">BgpSrtePolicyNameSubTlv</a></code>
+- <code><a href="./src/resources/config.ts">BgpSrtePolicyPrioritySubTlv</a></code>
+- <code><a href="./src/resources/config.ts">BgpSrtePreferenceSubTlv</a></code>
+- <code><a href="./src/resources/config.ts">BgpSrteRemoteEndpointSubTlv</a></code>
+- <code><a href="./src/resources/config.ts">BgpSrteSRv6SidEndpointBehaviorAndStructure</a></code>
+- <code><a href="./src/resources/config.ts">BgpSrteSegmentList</a></code>
+- <code><a href="./src/resources/config.ts">BgpSrteSrMplsSid</a></code>
+- <code><a href="./src/resources/config.ts">BgpSrteV4Policy</a></code>
+- <code><a href="./src/resources/config.ts">BgpSrteV6Policy</a></code>
+- <code><a href="./src/resources/config.ts">BgpUpdateReplay</a></code>
+- <code><a href="./src/resources/config.ts">BgpV4RouteRange</a></code>
+- <code><a href="./src/resources/config.ts">BgpV6RouteRange</a></code>
+- <code><a href="./src/resources/config.ts">CaptureField</a></code>
+- <code><a href="./src/resources/config.ts">Config</a></code>
+- <code><a href="./src/resources/config.ts">DeviceDhcpv6clientIaTimeValue</a></code>
+- <code><a href="./src/resources/config.ts">DeviceVlan</a></code>
+- <code><a href="./src/resources/config.ts">Dhcpv6ClientOptionsIncludedMessages</a></code>
+- <code><a href="./src/resources/config.ts">Dhcpv6ClientOptionsLinkLayerAddress</a></code>
+- <code><a href="./src/resources/config.ts">Dhcpv6OptionsVendorSpecificOptions</a></code>
+- <code><a href="./src/resources/config.ts">Dhcpv6ServerIapdPoolInfo</a></code>
+- <code><a href="./src/resources/config.ts">Dhcpv6ServerOptionsIncludedMessages</a></code>
+- <code><a href="./src/resources/config.ts">Dhcpv6ServerPoolInfo</a></code>
+- <code><a href="./src/resources/config.ts">Flow</a></code>
+- <code><a href="./src/resources/config.ts">FlowDelay</a></code>
+- <code><a href="./src/resources/config.ts">FlowHeader</a></code>
+- <code><a href="./src/resources/config.ts">FlowIpv4Auto</a></code>
+- <code><a href="./src/resources/config.ts">FlowIpv6Auto</a></code>
+- <code><a href="./src/resources/config.ts">FlowRsvpLspTunnelFlag</a></code>
+- <code><a href="./src/resources/config.ts">FlowRsvpObjectLength</a></code>
+- <code><a href="./src/resources/config.ts">FlowRsvpRouteRecordLength</a></code>
+- <code><a href="./src/resources/config.ts">FlowRsvpSessionAttributeNameLength</a></code>
+- <code><a href="./src/resources/config.ts">FlowSnmpv2cPdu</a></code>
+- <code><a href="./src/resources/config.ts">FlowSnmpv2cVariableBinding</a></code>
+- <code><a href="./src/resources/config.ts">IsisAuthenticationBase</a></code>
+- <code><a href="./src/resources/config.ts">IsisInterfaceLevel</a></code>
+- <code><a href="./src/resources/config.ts">IsisSrPrefixSid</a></code>
+- <code><a href="./src/resources/config.ts">LinkStateTe</a></code>
+- <code><a href="./src/resources/config.ts">Ospfv2V4RrExtdPrefixFlags</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowArpHardwareLengthCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowArpHardwareTypeCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowArpOperationCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowArpProtocolLengthCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowArpProtocolTypeCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowArpSenderHardwareAddrCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowArpSenderProtocolAddrCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowArpTargetHardwareAddrCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowArpTargetProtocolAddrCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowEthernetDstCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowEthernetEtherTypeCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowEthernetPauseControlOpCodeCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowEthernetPauseDstCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowEthernetPauseEtherTypeCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowEthernetPauseSrcCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowEthernetPauseTimeCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowEthernetPfcQueueCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowEthernetSrcCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGreChecksumPresentCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGreProtocolCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGreReserved0Counter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGreReserved1Counter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGreVersionCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpExtensionContentsCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpExtensionExtensionLengthCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpExtensionNextExtensionHeaderCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpv1EFlagCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpv1MessageLengthCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpv1MessageTypeCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpv1NPduNumberCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpv1NextExtensionHeaderTypeCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpv1PnFlagCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpv1ProtocolTypeCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpv1ReservedCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpv1SFlagCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpv1SquenceNumberCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpv1TeidCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpv1VersionCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpv2MessageLengthCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpv2MessageTypeCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpv2PiggybackingFlagCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpv2SequenceNumberCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpv2Spare1Counter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpv2Spare2Counter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpv2TeidCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpv2TeidFlagCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowGtpv2VersionCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIcmpEchoCodeCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIcmpEchoIdentifierCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIcmpEchoSequenceNumberCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIcmpEchoTypeCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIcmpv6EchoCodeCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIcmpv6EchoIdentifierCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIcmpv6EchoSequenceNumberCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIcmpv6EchoTypeCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIgmpv1GroupAddressCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIgmpv1TypeCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIgmpv1UnusedCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIgmpv1VersionCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4DontFragmentCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4DscpEcnCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4DscpPhbCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4DstCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4FragmentOffsetCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4HeaderLengthCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4IdentificationCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4MoreFragmentsCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4OptionsCustomTypeCopiedFlagCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4OptionsCustomTypeOptionClassCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4OptionsCustomTypeOptionNumberCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4PriorityRawCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4ProtocolCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4ReservedCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4SrcCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4TimeToLiveCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4TosDelayCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4TosMonetaryCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4TosPrecedenceCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4TosReliabilityCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4TosThroughputCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4TosUnusedCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4TotalLengthCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv4VersionCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv6DstCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv6FlowLabelCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv6HopLimitCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv6NextHeaderCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv6PayloadLengthCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv6SrcCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv6TrafficClassCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowIpv6VersionCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowMplsBottomOfStackCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowMplsLabelCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowMplsTimeToLiveCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowMplsTrafficClassCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowPfcPauseClassEnableVectorCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowPfcPauseControlOpCodeCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowPfcPauseDstCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowPfcPauseEtherTypeCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowPfcPausePauseClass0Counter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowPfcPausePauseClass1Counter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowPfcPausePauseClass2Counter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowPfcPausePauseClass3Counter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowPfcPausePauseClass4Counter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowPfcPausePauseClass5Counter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowPfcPausePauseClass6Counter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowPfcPausePauseClass7Counter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowPfcPauseSrcCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowPppAddressCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowPppControlCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowPppProtocolTypeCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathExplicitRouteType1AsNumberLBitCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathExplicitRouteType1Ipv4PrefixIpv4AddressCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathExplicitRouteType1Ipv4PrefixLBitCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathLabelRequestWithoutLabelRangeL3pidCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathLabelRequestWithoutLabelRangeReservedCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathObjectsCustomTypeCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathRecordRouteType1Ipv4AddressIpv4AddressCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathRecordRouteType1Ipv4AddressPrefixLengthCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathRsvpHopIpv4Ipv4AddressCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathRsvpHopIpv4LogicalInterfaceHandleCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathSenderTemplateLspTunnelIpv4Ipv4TunnelSenderAddressCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathSenderTemplateLspTunnelIpv4LspIDCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathSenderTemplateLspTunnelIpv4ReservedCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathSenderTspecIntServLengthOfServiceDataCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathSenderTspecIntServMaximumPacketSizeCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathSenderTspecIntServMinimumPolicedUnitCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathSenderTspecIntServOverallLengthCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathSenderTspecIntServParameterIDTokenBucketTspecCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathSenderTspecIntServParameter127FlagCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathSenderTspecIntServParameter127LengthCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathSenderTspecIntServReserved1Counter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathSenderTspecIntServReserved2Counter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathSenderTspecIntServServiceHeaderCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathSenderTspecIntServVersionCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathSenderTspecIntServZeroBitCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathSessionExtTunnelIDAsIntegerCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathSessionExtTunnelIDAsIpv4Counter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathSessionLspTunnelIpv4Ipv4TunnelEndPointAddressCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathSessionLspTunnelIpv4ReservedCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathSessionLspTunnelIpv4TunnelIDCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpPathTimeValuesType1RefreshPeriodRCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpReservedCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowRsvpTimeToLiveCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowSnmpv2cBulkPduMaxRepetitionsCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowSnmpv2cBulkPduRequestIDCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowSnmpv2cPduErrorIndexCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowSnmpv2cPduRequestIDCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowSnmpv2cVariableBindingValueBigCounterValueCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowSnmpv2cVariableBindingValueCounterValueCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowSnmpv2cVariableBindingValueIntegerValueCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowSnmpv2cVariableBindingValueIPAddressValueCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowSnmpv2cVariableBindingValueTimeticksValueCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowSnmpv2cVariableBindingValueUnsignedIntegerValueCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowSnmpv2cVersionCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowTcpAckNumCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowTcpCtlAckCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowTcpCtlFinCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowTcpCtlPshCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowTcpCtlRstCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowTcpCtlSynCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowTcpCtlUrgCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowTcpDataOffsetCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowTcpDstPortCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowTcpEcnCwrCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowTcpEcnEchoCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowTcpEcnNsCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowTcpSeqNumCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowTcpSrcPortCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowTcpWindowCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowUdpDstPortCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowUdpLengthCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowUdpSrcPortCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowVlanCfiCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowVlanIDCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowVlanPriorityCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowVlanTpidCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowVxlanFlagsCounter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowVxlanReserved0Counter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowVxlanReserved1Counter</a></code>
+- <code><a href="./src/resources/config.ts">PatternFlowVxlanVniCounter</a></code>
+- <code><a href="./src/resources/config.ts">Rocev2ImmediateData</a></code>
+- <code><a href="./src/resources/config.ts">Rocev2PriorityValue</a></code>
+- <code><a href="./src/resources/config.ts">Rocev2QPs</a></code>
+- <code><a href="./src/resources/config.ts">SecureEntityStaticKeySak</a></code>
+- <code><a href="./src/resources/config.ts">V4RouteAddress</a></code>
+- <code><a href="./src/resources/config.ts">V6RouteAddress</a></code>
+- <code><a href="./src/resources/config.ts">VxlanTunnelDestinationIPModeUnicastArpSuppressionCache</a></code>
+- <code><a href="./src/resources/config.ts">ConfigCreateResponse</a></code>
+- <code><a href="./src/resources/config.ts">ConfigUpdateResponse</a></code>
+
+Methods:
+
+- <code title="post /config">client.config.<a href="./src/resources/config.ts">create</a>({ ...params }) -> ConfigCreateResponse</code>
+- <code title="get /config">client.config.<a href="./src/resources/config.ts">retrieve</a>() -> Config</code>
+- <code title="patch /config">client.config.<a href="./src/resources/config.ts">update</a>({ ...params }) -> ConfigUpdateResponse</code>
+
+# Control
+
+Types:
+
+- <code><a href="./src/resources/control.ts">CeaseError</a></code>
+- <code><a href="./src/resources/control.ts">CustomError</a></code>
+- <code><a href="./src/resources/control.ts">MessageHeaderError</a></code>
+- <code><a href="./src/resources/control.ts">OpenMessageError</a></code>
+- <code><a href="./src/resources/control.ts">UpdateMessageError</a></code>
+- <code><a href="./src/resources/control.ts">ControlSetStateResponse</a></code>
+- <code><a href="./src/resources/control.ts">ControlTriggerActionResponse</a></code>
+
+Methods:
+
+- <code title="post /control/state">client.control.<a href="./src/resources/control.ts">setState</a>({ ...params }) -> ControlSetStateResponse</code>
+- <code title="post /control/action">client.control.<a href="./src/resources/control.ts">triggerAction</a>({ ...params }) -> ControlTriggerActionResponse</code>
+
+# Monitor
+
+Types:
+
+- <code><a href="./src/resources/monitor.ts">IsisLspPrefixAttributes</a></code>
+- <code><a href="./src/resources/monitor.ts">IsisLspPrefixSid</a></code>
+- <code><a href="./src/resources/monitor.ts">IsisLspV4Prefix</a></code>
+- <code><a href="./src/resources/monitor.ts">MetricLatency</a></code>
+- <code><a href="./src/resources/monitor.ts">MetricTimestamp</a></code>
+- <code><a href="./src/resources/monitor.ts">Ospfv2LsaHeader</a></code>
+- <code><a href="./src/resources/monitor.ts">Ospfv3LsaHeader</a></code>
+- <code><a href="./src/resources/monitor.ts">ResultBgpAsPath</a></code>
+- <code><a href="./src/resources/monitor.ts">ResultBgpCommunity</a></code>
+- <code><a href="./src/resources/monitor.ts">ResultExtendedCommunity</a></code>
+- <code><a href="./src/resources/monitor.ts">MonitorCreateMetricsResponse</a></code>
+- <code><a href="./src/resources/monitor.ts">MonitorCreateStatesResponse</a></code>
+
+Methods:
+
+- <code title="post /monitor/capture">client.monitor.<a href="./src/resources/monitor.ts">capture</a>({ ...params }) -> Response</code>
+- <code title="post /monitor/metrics">client.monitor.<a href="./src/resources/monitor.ts">createMetrics</a>({ ...params }) -> MonitorCreateMetricsResponse</code>
+- <code title="post /monitor/states">client.monitor.<a href="./src/resources/monitor.ts">createStates</a>({ ...params }) -> MonitorCreateStatesResponse</code>
+
+# Capabilities
+
+Types:
+
+- <code><a href="./src/resources/capabilities.ts">CapabilityRetrieveVersionResponse</a></code>
+
+Methods:
+
+- <code title="get /capabilities/version">client.capabilities.<a href="./src/resources/capabilities.ts">retrieveVersion</a>() -> CapabilityRetrieveVersionResponse</code>
