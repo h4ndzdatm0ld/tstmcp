@@ -8,10 +8,10 @@
   "type": "commonjs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stainless-sdks/devknot-typescript.git",
+    "url": "git+https://github.com/h4ndzdatm0ld/tstmcp.git",
     "directory": "packages/mcp-server"
   },
-  "homepage": "https://github.com/stainless-sdks/devknot-typescript/tree/main/packages/mcp-server#readme",
+  "homepage": "https://github.com/h4ndzdatm0ld/tstmcp/tree/main/packages/mcp-server#readme",
   "license": "MIT",
   "packageManager": "yarn@1.22.22",
   "private": false,
