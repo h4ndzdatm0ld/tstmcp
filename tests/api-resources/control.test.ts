@@ -94,8 +94,11 @@ describe('resource control', () => {
             update_message_error: { subcode: 'malformed_attrib_list_code3_subcode1' },
           },
         },
-        ipv4: { choice: 'ping', ping: { requests: [{ dst_ip: 'dst_ip', src_name: 'src_name' }] } },
-        ipv6: { choice: 'ping', ping: { requests: [{ dst_ip: 'dst_ip', src_name: 'src_name' }] } },
+        ipv4: { choice: 'ping', ping: { requests: [{ dst_ip: '192.168.1.1', src_name: 'src_name' }] } },
+        ipv6: {
+          choice: 'ping',
+          ping: { requests: [{ dst_ip: '2001:0db8:85a3:0000:0000:8a2e:0370:7334', src_name: 'src_name' }] },
+        },
       },
     });
   });
