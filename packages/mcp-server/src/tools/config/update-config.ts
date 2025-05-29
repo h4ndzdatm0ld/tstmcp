@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   resource: 'config',
   operation: 'write',
   tags: [],
+  httpMethod: 'patch',
+  httpPath: '/config',
+  operationId: 'update_config',
 };
 
 export const tool: Tool = {
