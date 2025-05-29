@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   resource: 'control',
   operation: 'write',
   tags: [],
+  httpMethod: 'post',
+  httpPath: '/control/state',
+  operationId: 'set_control_state',
 };
 
 export const tool: Tool = {

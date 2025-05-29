@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   resource: 'monitor',
   operation: 'write',
   tags: [],
+  httpMethod: 'post',
+  httpPath: '/monitor/metrics',
+  operationId: 'get_metrics',
 };
 
 export const tool: Tool = {
