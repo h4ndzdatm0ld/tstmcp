@@ -1,7 +1,8 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import Devknot from 'devknot';
-import { Tool } from '@modelcontextprotocol/sdk/types.js';
+import { Metadata, Endpoint, HandlerFunction } from './types';
+
+export { Metadata, Endpoint, HandlerFunction };
 
 import create_config from './config/create-config';
 import retrieve_config from './config/retrieve-config';
@@ -12,24 +13,6 @@ import capture_monitor from './monitor/capture-monitor';
 import create_metrics_monitor from './monitor/create-metrics-monitor';
 import create_states_monitor from './monitor/create-states-monitor';
 import retrieve_version_capabilities from './capabilities/retrieve-version-capabilities';
-
-export type HandlerFunction = (client: Devknot, args: Record<string, unknown> | undefined) => Promise<any>;
-
-export type Metadata = {
-  resource: string;
-  operation: 'read' | 'write';
-  tags: string[];
-
-  httpMethod?: string;
-  httpPath?: string;
-  operationId?: string;
-};
-
-export type Endpoint = {
-  metadata: Metadata;
-  tool: Tool;
-  handler: HandlerFunction;
-};
 
 export const endpoints: Endpoint[] = [];
 
