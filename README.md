@@ -1,6 +1,6 @@
 # Devknot TypeScript API Library
 
-[![NPM version](https://img.shields.io/npm/v/devknot.svg)](https://npmjs.org/package/devknot) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/devknot)
+[![NPM version](<https://img.shields.io/npm/v/devknot.svg?label=npm%20(stable)>)](https://npmjs.org/package/devknot) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/devknot)
 
 This library provides convenient access to the Devknot REST API from server-side TypeScript or JavaScript.
 
