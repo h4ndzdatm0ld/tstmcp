@@ -15,7 +15,7 @@ npm install git+ssh://git@github.com:h4ndzdatm0ld/tstmcp.git
 ```
 
 > [!NOTE]
-> Once this package is [published to npm](https://app.stainless.com/docs/guides/publish), this will become: `npm install devknot`
+> Once this package is [published to npm](https://www.stainless.com/docs/guides/publish), this will become: `npm install devknot`
 
 ## Usage
 
