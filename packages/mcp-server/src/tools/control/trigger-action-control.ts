@@ -1,5 +1,7 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
+import { asTextContentResult } from 'devknot-mcp/tools/types';
+
 import { Tool } from '@modelcontextprotocol/sdk/types.js';
 import type { Metadata } from '../';
 import Devknot from 'devknot';
@@ -8,6 +10,9 @@ export const metadata: Metadata = {
   resource: 'control',
   operation: 'write',
   tags: [],
+  httpMethod: 'post',
+  httpPath: '/control/action',
+  operationId: 'set_control_action',
 };
 
 export const tool: Tool = {
@@ -355,9 +360,9 @@ export const tool: Tool = {
   },
 };
 
-export const handler = (client: Devknot, args: Record<string, unknown> | undefined) => {
+export const handler = async (client: Devknot, args: Record<string, unknown> | undefined) => {
   const body = args as any;
-  return client.control.triggerAction(body);
+  return asTextContentResult(await client.control.triggerAction(body));
 };
 
 export default { metadata, tool, handler };

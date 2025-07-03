@@ -9,8 +9,8 @@ It is generated with [Stainless](https://www.stainless.com/).
 Because it's not published yet, clone the repo and build it:
 
 ```sh
-git clone git@github.com:stainless-sdks/devknot-typescript.git
-cd devknot-typescript
+git clone git@github.com:h4ndzdatm0ld/tstmcp.git
+cd tstmcp
 ./scripts/bootstrap
 ./scripts/build
 ```
@@ -24,7 +24,7 @@ node ./packages/mcp-server/dist/index.js
 ```
 
 > [!NOTE]
-> Once this package is [published to npm](https://app.stainless.com/docs/guides/publish), this will become: `npx -y devknot-mcp`
+> Once this package is [published to npm](https://www.stainless.com/docs/guides/publish), this will become: `npx -y devknot-mcp`
 
 ### Via MCP Client
 
@@ -40,7 +40,7 @@ For clients with a configuration JSON, it might look something like this:
   "mcpServers": {
     "devknot_api": {
       "command": "node",
-      "args": ["/path/to/local/devknot-typescript/packages/mcp-server", "--client=claude", "--tools=all"],
+      "args": ["/path/to/local/tstmcp/packages/mcp-server", "--client=claude", "--tools=all"],
       "env": {
         "DEVKNOT_API_KEY": "My API Key"
       }

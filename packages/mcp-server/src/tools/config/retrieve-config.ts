@@ -1,5 +1,7 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
+import { asTextContentResult } from 'devknot-mcp/tools/types';
+
 import { Tool } from '@modelcontextprotocol/sdk/types.js';
 import type { Metadata } from '../';
 import Devknot from 'devknot';
@@ -8,6 +10,9 @@ export const metadata: Metadata = {
   resource: 'config',
   operation: 'read',
   tags: [],
+  httpMethod: 'get',
+  httpPath: '/config',
+  operationId: 'get_config',
 };
 
 export const tool: Tool = {
@@ -19,8 +24,8 @@ export const tool: Tool = {
   },
 };
 
-export const handler = (client: Devknot, args: Record<string, unknown> | undefined) => {
-  return client.config.retrieve();
+export const handler = async (client: Devknot, args: Record<string, unknown> | undefined) => {
+  return asTextContentResult(await client.config.retrieve());
 };
 
 export default { metadata, tool, handler };

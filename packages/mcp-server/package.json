@@ -1,6 +1,6 @@
 {
   "name": "devknot-mcp",
-  "version": "0.0.1-alpha.0",
+  "version": "0.1.0-alpha.1",
   "description": "The official MCP Server for the Devknot API",
   "author": "Devknot <>",
   "types": "dist/index.d.ts",
@@ -8,10 +8,10 @@
   "type": "commonjs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stainless-sdks/devknot-typescript.git",
+    "url": "git+https://github.com/h4ndzdatm0ld/tstmcp.git",
     "directory": "packages/mcp-server"
   },
-  "homepage": "https://github.com/stainless-sdks/devknot-typescript/tree/main/packages/mcp-server#readme",
+  "homepage": "https://github.com/h4ndzdatm0ld/tstmcp/tree/main/packages/mcp-server#readme",
   "license": "MIT",
   "packageManager": "yarn@1.22.22",
   "private": false,
@@ -28,9 +28,11 @@
   },
   "dependencies": {
     "devknot": "file:../../dist/",
-    "@modelcontextprotocol/sdk": "^1.6.1",
+    "@modelcontextprotocol/sdk": "^1.11.5",
     "yargs": "^17.7.2",
-    "@cloudflare/cabidela": "^0.2.4"
+    "@cloudflare/cabidela": "^0.2.4",
+    "zod": "^3.25.20",
+    "zod-to-json-schema": "^3.24.5"
   },
   "bin": {
     "mcp-server": "dist/index.js"
@@ -47,7 +49,7 @@
     "ts-jest": "^29.1.0",
     "ts-morph": "^19.0.0",
     "ts-node": "^10.5.0",
-    "tsc-multi": "https://github.com/stainless-api/tsc-multi/releases/download/v1.1.4/tsc-multi-1.1.4.tgz",
+    "tsc-multi": "https://github.com/stainless-api/tsc-multi/releases/download/v1.1.8/tsc-multi.tgz",
     "tsconfig-paths": "^4.0.0",
     "typescript": "5.8.3"
   },
